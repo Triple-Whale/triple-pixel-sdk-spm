@@ -14,7 +14,7 @@ let package = Package(
         .binaryTarget(
             name: "TriplePixelSDK",
             url: "https://github.com/Triple-Whale/triple-pixel-sdk-spm/releases/download/0.1.1/TriplePixelSDK.xcframework.zip",
-            checksum: "7add809b27134e4b68d97e6a970fdcae5fb17b202910e61a89195435038534de"
+            checksum: "e20d1e1aa52bd5443f58d74d1530d852ce1f830ee53d264c41c48f5c1c9aa375"
         ),
     ]
 )
