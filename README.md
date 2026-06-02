@@ -34,8 +34,11 @@ dependencies: [
 ```swift
 import TriplePixelSDK
 
+// First arg = your Triple Whale shop ID (the identifier registered for your
+// store in Triple Whale, e.g. `myshop.myshopify.com`). Do not pass your
+// storefront domain or shop name.
 TriplePixel.Companion.shared.doInit(
-    shopName: "your-shop",
+    shopName: "your-tw-shop-id",
     msCountry: "US",
     curr: "USD"
 )
